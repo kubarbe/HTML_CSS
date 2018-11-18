@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "fajna";
+    src: url("../Styles/NECK ROMANCER Regular.ttf");
+}
+
+
+div.myform label {
+    display: block;
+    width: 20vw;
+    min-width: 5cm;
+    float: left;
+    font-family: "fajna";
+    border: 1px solid black;
+    
+   
+}
+div.myform input {
+    display: block; 
+}
+
+div.myform input[name="imie"] {
+    background-color: green;
+}
+
+div.myform input[name="nazwisko"] {
+    background-color: red;
+}
+
+div.myform input[name^="email"] {
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .2em;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -.1em;
+}
+
+div.myform input[name$="email"] {
+    background-color: hotpink;
+    background-image: url("koperta-emaila-list-poczta-cienka-kreskowa-ikona-liniowy-wektorowy-symbol-99230029.jpg");
+    background-position: center;
+}
+/*----------------------------------------------------------------*/
+
+div.myform2 label {
+    display: block;
+    float: left;
+    width: 10vw;
+    border: 2px;
+    border-radius: 5px;
+}
+
+div.myform2 input {
+    display: block
+}
+
+div.myform2 input[type="button"] {
+    background-color: blanchedalmond;
+    border: 1px outset gray;
+    border-radius: 5px;
+}
+
+
+
+
